@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Pony Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+This project is solution for Pony Challenge as part of application to Trustpilot.
+
+GAME INSTRUCTIONS:
+* To start the game, pony must be chosen, as well as width, height and difficulty of the maze
+- only then 'START THE GAME' button is enabled.
+* After clicking 'START THE GAME', maze is created and displayed - the goal is to reach the green exit 
+while staying away from the brown domokun
+    * Pony can be moved by using either keyboard arrow buttons or clicking buttons in the UI.
+    If pony cannot move to specific dirrection due to a wall being there, the UI button is disabled.
+* If pony reaches the exit, success image is shown and only selection to restart the game is left
+* If domokun catches the pony, failure image is shown and only selection to restart the game is left.
 
 ## Available Scripts
 
@@ -33,14 +43,21 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run lint`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Runs `eslint` and fails if there's any linting errors.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npm run lint:fix`
+
+Runs `prettier` and `eslint` to fix all code styling/formatting issues.
+
+### `npm run format`
+
+Runs `prettier` and fixes found issues.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
