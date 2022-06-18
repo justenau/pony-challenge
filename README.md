@@ -2,13 +2,11 @@
 
 This project is solution for Pony Challenge as part of application to Trustpilot.
 
-GAME INSTRUCTIONS:
-* To start the game, pony must be chosen, as well as width, height and difficulty of the maze
-- only then 'START THE GAME' button is enabled.
-* After clicking 'START THE GAME', maze is created and displayed - the goal is to reach the green exit 
-while staying away from the brown domokun
+#### GAME INSTRUCTIONS:
+* To start the game, pony must be chosen, as well as width, height and difficulty of the maze - only then 'START THE GAME' button is enabled.
+* After clicking 'START THE GAME', maze is created and displayed - the goal is to reach the green exit while staying away from the brown domokun
     * Pony can be moved by using either keyboard arrow buttons or clicking buttons in the UI.
-    If pony cannot move to specific dirrection due to a wall being there, the UI button is disabled.
+    * If pony cannot move to specific dirrection due to a wall being there, the UI button is disabled.
 * If pony reaches the exit, success image is shown and only selection to restart the game is left
 * If domokun catches the pony, failure image is shown and only selection to restart the game is left.
 
